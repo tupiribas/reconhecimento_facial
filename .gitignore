@@ -1,0 +1,3 @@
+./.mypy_cache
+./p1
+./src/__pycache__
