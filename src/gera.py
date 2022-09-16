@@ -16,6 +16,7 @@ while True:
 
     rostos = reconhecedor.process(imagem)  # Lista de rostos que ele reconheceu
 
+    print(rostos)
     if rostos.detections:
         for rosto in rostos.detections:
             # Local e objeto que deseja reconhecer o rosto
